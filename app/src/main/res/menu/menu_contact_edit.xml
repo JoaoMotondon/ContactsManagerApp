@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_contact_confirm_changes"
+        android:title="@string/menu_confirm_changes"
+        android:icon="@drawable/ic_done_white_24dp"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_contact_discard_changes"
+        android:title="@string/menu_discard_changes"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_contact_delete"
+        android:title="@string/menu_delete"
+        app:showAsAction="never" />
+
+</menu>
